@@ -1,0 +1,57 @@
+body {
+ /* background: #fef2e4;*/
+  background: 	#d3d3d3	;
+ /* background: #fef2e4;*/
+  color: #434e5e; }
+
+.iconimage {
+  height: 30px;
+  width: 30px;
+  fill: white; }
+
+.iconimage2 {
+  height: 10px;
+  width: 10px;
+  fill: blue; }
+
+.profile-image {
+  max-width: 240px; }
+
+.theme-bg-primary-darken {
+  background-color: #505160; }
+
+.theme-bg-primary {
+  /*background-color: #aebd38; */
+  /*background-color: #78d4f7;*/
+  background: rgb(63,215,251);
+background: radial-gradient(circle, rgba(63,215,251,1) 0%, rgba(70,150,252,1) 100%);
+  opacity:0.90;
+}
+a.theme-btn-on-bg, .theme-btn-on-bg {
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border: none; }
+
+theme-btn-cta {
+  width: inherit;
+  display: inline-block; }
+
+.theme-btn-cta {
+  padding: 0.6rem 1.5rem; }
+
+.section-intro {
+  max-width: 780px; }
+
+.my-nav-item a:hover {
+  border-bottom: 2px solid RGB(2, 170, 216);
+  transition: ease ease-in-out 0.50s; }
+
+.skills-blocks {
+  grid-auto-rows: 1fr; }
+
+ #my-footer{
+   position: absolute;
+  
+    left: 0px;
+    width: 100%;
+ }
