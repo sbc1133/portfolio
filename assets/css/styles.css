@@ -1,8 +1,12 @@
 body {
  /* background: #fef2e4;*/
-  background: 	#d3d3d3	;
+  /*background: 	#d3d3d3	;*/
+  background-image: linear-gradient(to right, rgb(189, 195, 199), rgb(44, 62, 80));
  /* background: #fef2e4;*/
-  color: #434e5e; }
+  color: #434e5e; 
+
+
+}
 
 .iconimage {
   height: 30px;
