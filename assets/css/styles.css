@@ -1,25 +1,27 @@
 body {
- /* background: #fef2e4;*/
-  /*background: 	#d3d3d3	;*/
-  background-image: linear-gradient(to right, rgb(189, 195, 199), rgb(44, 62, 80));
- /* background: #fef2e4;*/
-  color: #434e5e; 
+
+ /* background-image: linear-gradient(to right, rgb(189, 195, 199), rgb(44, 62, 80));*/
+  background-image: linear-gradient(to right,#232546, #414345);
+  /*color: #434e5e; */
 
 
 }
-
 .iconimage {
   height: 30px;
   width: 30px;
-  fill: white; }
+  fill: white; 
+}
 
 .iconimage2 {
   height: 10px;
   width: 10px;
-  fill: blue; }
+  fill: blue; 
+}
 
 .profile-image {
-  max-width: 240px; }
+  max-width: 240px;
+  border-radius: 50%; 
+}
 
 .theme-bg-primary-darken {
   background-color: #505160; }
@@ -28,7 +30,7 @@ body {
   /*background-color: #aebd38; */
   /*background-color: #78d4f7;*/
   background: rgb(63,215,251);
-background: radial-gradient(circle, rgba(63,215,251,1) 0%, rgba(70,150,252,1) 100%);
+  background: radial-gradient(circle, rgba(63,215,251,1) 0%, rgba(70,150,252,1) 100%);
   opacity:0.90;
 }
 a.theme-btn-on-bg, .theme-btn-on-bg {
@@ -55,7 +57,23 @@ theme-btn-cta {
 
  #my-footer{
    position: absolute;
-  
+   bottom:0;
     left: 0px;
     width: 100%;
  }
+ .hr {
+  width: 50px;
+  height: 4px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  margin: 0 auto 10px;
+  background: #e4e4e4;
+}
+.skillSvg{
+  height: 32px;
+  margin-top: 10px;
+}
+#topBar{
+  padding:15px 15px 15px 15px;
+  height:100px;
+}
