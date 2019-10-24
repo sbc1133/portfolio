@@ -1,8 +1,9 @@
 body {
 
  /* background-image: linear-gradient(to right, rgb(189, 195, 199), rgb(44, 62, 80));*/
-  background-image: linear-gradient(to right,#232546, #414345);
+  /*background-image: linear-gradient(to right,#232546, #414345);*/
   /*color: #434e5e; */
+  background-color: rgb(63, 127, 176)
 
 
 }
